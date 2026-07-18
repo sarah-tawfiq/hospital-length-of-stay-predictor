@@ -5,7 +5,7 @@ from datetime import date
 
 st.set_page_config(page_title="Hospital Length of Stay Predictor", page_icon="🏥", layout="wide")
 
-model = joblib.load("best_rf_model.pkl")
+model = joblib.load("model_mae.pkl")
 feature_columns = joblib.load("feature_columns.pkl")
 
 st.title("🏥 Hospital Length of Stay Predictor")
