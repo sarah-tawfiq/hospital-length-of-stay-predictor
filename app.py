@@ -82,6 +82,7 @@ row.update({
 "high_respiration":high_respiration
 })
 
+st.write(X)
 if st.button("Predict"):
     X=pd.DataFrame([row])[feature_columns]
     pred=model.predict(X)[0]
