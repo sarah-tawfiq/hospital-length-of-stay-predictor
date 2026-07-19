@@ -47,7 +47,11 @@ dayofweek=visit_date.weekday()
 quarter=(month-1)//3+1
 disease_count=sum(vals.values())
 high_risk=int(disease_count>=3)
-abnormal_lab_score=int(hematocrit<35)+int(neutrophils>70)+int(sodium<135)+int(glucose>140)+int(bloodureanitro>20)+int(creatinine>1.2)
+abnormal_lab_score = (
+    int(glucose > 140)
+    + int(creatinine > 1.3)
+    + int(bloodureanitro > 20)
+)
 high_pulse=int(pulse>100)
 high_respiration=int(respiration>20)
 
