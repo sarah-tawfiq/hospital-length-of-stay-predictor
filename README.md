@@ -1,23 +1,23 @@
 # 🏥 Hospital Length of Stay Predictor
 
-## 📌 Overview
+##  Overview
 
 This project predicts whether a patient is likely to have a **Short
 Stay** (≤ 3 days) or a **Long Stay** (\> 3 days) using a Machine
 Learning model trained on hospital patient data.
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Predict whether a patient's hospital stay will be: - **Short Stay (≤ 3
 days)** - **Long Stay (\> 3 days)**
 
-## 📊 Dataset
+##  Dataset
 
 Hospital Length of Stay Dataset (Microsoft)
 
 Target: `long_stay`
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 -   Python
 -   Pandas
@@ -26,7 +26,7 @@ Target: `long_stay`
 -   Streamlit
 -   Joblib
 
-## 🤖 Machine Learning Model
+##  Machine Learning Model
 
 Random Forest Classifier
 
@@ -37,7 +37,7 @@ Random Forest Classifier
   Recall        93--95%
   F1-Score          94%
 
-## 📥 Input Features
+##  Input Features
 
 -   Readmission Count
 -   Gender
@@ -63,11 +63,11 @@ Random Forest Classifier
 -   High Respiration
 -   Year, Month, Day, Day of Week, Quarter
 
-## 🚀 Live Demo
+##  Live Demo
 
 https://hospital-length-of-stay-predictor-uesnhtogzy5hkw7rxeklao.streamlit.app/
 
 
-## 👩‍💻 Author
+##  Author
 
 **Sarah Tawfiq**
