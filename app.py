@@ -85,7 +85,6 @@ row.update({
 
 if st.button("Predict"):
     X=pd.DataFrame([row])[feature_columns]
-    st.write(X)
     pred=model.predict(X)[0]
     prob=model.predict_proba(X)[0].max()*100
     if pred==1:
